@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+}
+.left{
+    height: 100%;
+    width: 35%;
+    background-color: tomato;
+    
+}
+.right{
+    height: 100%;
+    width: 65%;
+    background-color: skyblue;
+}
+.rightT{
+    height: 40%;
+    width: 100%;
+    border-color: rgb(211, 133, 32);
+}
+.rightB{
+    height: 60%;
+    width: 100%;
+    border-color: rgb(47, 158, 33);
+
+}
